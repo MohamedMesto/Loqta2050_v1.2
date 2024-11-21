@@ -1,9 +1,9 @@
 <img src="assets/images/readme_images/LQ2050_logo6.png" alt="Loqta2050 logo" width="400"/>
 
-
+ 
 # Loqta2050 News Site
 
-## Welcome
+## Welcome 
 
 Welcome to **Loqta2050**, a dynamic and interactive news platform built using Django. Loqta2050 is designed to provide users with the ability to post, read, and comment on news articles, offering a community-driven space for discussion and engagement. Whether you want to stay up-to-date with the latest news, engage in discussions, or share your opinions, **Loqta2050** provides a user-friendly platform for a seamless experience.
 

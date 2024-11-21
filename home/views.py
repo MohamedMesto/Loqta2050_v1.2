@@ -4,4 +4,4 @@ from django.http import HttpResponse
  
 
 def home(request):
-    return HttpResponse("Welcome to Loqta2050.com")
+   return HttpResponse("Welcome to Loqta2050.com")

@@ -17,8 +17,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from home import views as home_views
+
+
 from about import views as about_views
+
+
+
 from contact import views as contact_views
+ 
+
 
 # from users import views as users_views
 # from posts import views as posts_views
@@ -31,10 +38,15 @@ from moderation import views as moderation_views
 from search import views as search_views
 
 
-
+# URLConf
 urlpatterns = [
+ 
     path('home/',home_views.home, name='home' ),
-    path('about/', about_views.about_me, name='about'),
+ 
+    path('about/', include('about.urls')),
+
+    # path('about/', about_views.about_me, name='about'),
+
     path('contact/', contact_views.contact_me, name='contact'),
     # path('users/',users_views.users, name='users' ),
     # path('posts/', posts_views.posts, name='posts'),
@@ -46,5 +58,5 @@ urlpatterns = [
     path('search/', search_views.search, name='search'),
     
 
- path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
 ]
