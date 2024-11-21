@@ -1,7 +1,7 @@
 <img src="assets/images/readme_images/LQ2050_logo6.png" alt="Loqta2050 logo" width="400"/>
 
  
-# Loqta2050 News Site
+# Loqta2050 News Site 
 
 ## Welcome 
 
@@ -9,7 +9,10 @@ Welcome to **Loqta2050**, a dynamic and interactive news platform built using Dj
 
 [Here is the live version of the project](https://loqta2050-89fbbef45245.herokuapp.com/admin)
 
-[Here is our E-commerce Website](https://loqta2050.com/)
+
+[![alt text](assets/images/readme_images/loqta2050com.png)](https://loqta2050.com/)
+
+ 
 
 ![devices](assets/images/readme_images/devices.png)
 
